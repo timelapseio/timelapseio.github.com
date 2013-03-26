@@ -9,7 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="I wanted to be able to capture photos as frequently as possible of myself to track my movements and ageing over time. I have in the past created a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://kulor.github.com">
+  <link rel="canonical" href="http://timelapseio.github.com">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
@@ -50,7 +50,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:kulor.github.com" />
+    <input type="hidden" name="q" value="site:timelapseio.github.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -66,6 +66,61 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/26/raspberry-pi-time-lapse-camera/">Raspberry Pi Time Lapse Camera</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-26T09:38:00+00:00" pubdate data-updated="true">Mar 26<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I wanted to be able to capture photos as frequently as possible of myself to track my movements and ageing over time.</p>
+
+<p>I have in the past created a daemon that ran on my laptop and took photos using the webcam and this worked great but only worked when the laptop was on and only captured my face.</p>
+
+<p>That&#8217;s what spurred me on to get a Raspberry Pi with a high resolution webcam to allow me to stick it in the corner of the room and to start taking pictures which would generate and upload a daily <strong>time lapse</strong>.</p>
+
+<!-- 
+Here's how the humble device looks at present:
+
+INSERT PHOTO OF PI
+-->
+
+
+<p>Behind the scenes it uses the fantastic <a href="http://www.lavrsen.dk/foswiki/bin/view/Motion/">motion</a> library which makes it a doddle to configure your device to regularly take photos and conveniently creates time lapse videos for you.</p>
+
+<h2>Current Issues</h2>
+
+<p>I keep facing problems with photos just not being captured, with nothing in the logs that indicate something going wrong. I suspect this is a memory (RAM) issue and will run a cron to clear out memory caches.</p>
+
+<p>I am also facing issues uploading the time lapse videos created, this could be a number of things but seems to be with the motion library on_video_created event.</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -77,6 +132,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/26/raspberry-pi-time-lapse-camera/">Raspberry Pi Time Lapse Camera</a>
+      </li>
     
   </ul>
 </section>

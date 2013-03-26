@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://kulor.github.com/sitemap.xml 
+Sitemap: http://timelapseio.github.com/sitemap.xml 

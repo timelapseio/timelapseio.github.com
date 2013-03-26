@@ -2,15 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://kulor.github.com/atom.xml" rel="self"/>
-  <link href="http://kulor.github.com/"/>
-  <updated>2013-03-26T09:08:22+00:00</updated>
-  <id>http://kulor.github.com/</id>
+  <link href="http://timelapseio.github.com/atom.xml" rel="self"/>
+  <link href="http://timelapseio.github.com/"/>
+  <updated>2013-03-26T09:53:52+00:00</updated>
+  <id>http://timelapseio.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Raspberry Pi Time Lapse Camera]]></title>
+    <link href="http://timelapseio.github.com/blog/2013/03/26/raspberry-pi-time-lapse-camera/"/>
+    <updated>2013-03-26T09:38:00+00:00</updated>
+    <id>http://timelapseio.github.com/blog/2013/03/26/raspberry-pi-time-lapse-camera</id>
+    <content type="html"><![CDATA[<p>I wanted to be able to capture photos as frequently as possible of myself to track my movements and ageing over time.</p>
+
+<p>I have in the past created a daemon that ran on my laptop and took photos using the webcam and this worked great but only worked when the laptop was on and only captured my face.</p>
+
+<p>That&#8217;s what spurred me on to get a Raspberry Pi with a high resolution webcam to allow me to stick it in the corner of the room and to start taking pictures which would generate and upload a daily <strong>time lapse</strong>.</p>
+
+<!-- 
+Here's how the humble device looks at present:
+
+INSERT PHOTO OF PI
+-->
+
+
+<p>Behind the scenes it uses the fantastic <a href="http://www.lavrsen.dk/foswiki/bin/view/Motion/">motion</a> library which makes it a doddle to configure your device to regularly take photos and conveniently creates time lapse videos for you.</p>
+
+<h2>Current Issues</h2>
+
+<p>I keep facing problems with photos just not being captured, with nothing in the logs that indicate something going wrong. I suspect this is a memory (RAM) issue and will run a cron to clear out memory caches.</p>
+
+<p>I am also facing issues uploading the time lapse videos created, this could be a number of things but seems to be with the motion library on_video_created event.</p>
+]]></content>
+  </entry>
   
 </feed>
