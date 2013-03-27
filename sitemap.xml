@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://timelapseio.github.com/blog/2013/03/26/raspberry-pi-time-lapse-camera/</loc>
-        <lastmod>2013-03-26T09:53:51+00:00</lastmod>
+        <loc>http://blog.timelapse.io/blog/2013/03/26/raspberry-pi-time-lapse-camera/</loc>
+        <lastmod>2013-03-27T09:34:14+00:00</lastmod>
     </url>
     <url>
-        <loc>http://timelapseio.github.com/blog/archives/</loc>
-        <lastmod>2013-03-26T09:53:51+00:00</lastmod>
+        <loc>http://blog.timelapse.io/blog/archives/</loc>
+        <lastmod>2013-03-27T09:34:14+00:00</lastmod>
     </url>
     <url>
-        <loc>http://timelapseio.github.com/</loc>
-        <lastmod>2013-03-26T09:53:51+00:00</lastmod>
+        <loc>http://blog.timelapse.io/</loc>
+        <lastmod>2013-03-27T09:34:14+00:00</lastmod>
     </url>
     <url>
-        <loc>http://timelapseio.github.com/robots.txt</loc>
+        <loc>http://blog.timelapse.io/robots.txt</loc>
         <lastmod>2013-03-25T09:33:45+00:00</lastmod>
     </url>
 </urlset>

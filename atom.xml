@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://timelapseio.github.com/atom.xml" rel="self"/>
-  <link href="http://timelapseio.github.com/"/>
-  <updated>2013-03-26T09:53:52+00:00</updated>
-  <id>http://timelapseio.github.com/</id>
+  <title><![CDATA[Timelapse IO]]></title>
+  <link href="http://blog.timelapse.io/atom.xml" rel="self"/>
+  <link href="http://blog.timelapse.io/"/>
+  <updated>2013-03-27T09:40:26+00:00</updated>
+  <id>http://blog.timelapse.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[James Broad]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,10 +15,13 @@
   
   <entry>
     <title type="html"><![CDATA[Raspberry Pi Time Lapse Camera]]></title>
-    <link href="http://timelapseio.github.com/blog/2013/03/26/raspberry-pi-time-lapse-camera/"/>
+    <link href="http://blog.timelapse.io/blog/2013/03/26/raspberry-pi-time-lapse-camera/"/>
     <updated>2013-03-26T09:38:00+00:00</updated>
-    <id>http://timelapseio.github.com/blog/2013/03/26/raspberry-pi-time-lapse-camera</id>
-    <content type="html"><![CDATA[<p>I wanted to be able to capture photos as frequently as possible of myself to track my movements and ageing over time.</p>
+    <id>http://blog.timelapse.io/blog/2013/03/26/raspberry-pi-time-lapse-camera</id>
+    <content type="html"><![CDATA[<iframe width="789" height="400" src="http://www.youtube.com/embed/ClpkPL0hyZE" frameborder="0" allowfullscreen></iframe>
+
+
+<p>I wanted to be able to capture photos as frequently as possible of myself to track my movements and ageing over time.</p>
 
 <p>I have in the past created a daemon that ran on my laptop and took photos using the webcam and this worked great but only worked when the laptop was on and only captured my face.</p>
 
